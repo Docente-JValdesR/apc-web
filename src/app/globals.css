@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+.gradient-bg-animation {
+  height: 200px; /*La altura dependerá de lo que requieras*/
+  background: rgb(189, 189, 189); /*Usamos un background por defecto*/
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 0%,
+    rgb(27, 27, 27) 48%,
+    rgb(43, 43, 43) 100%
+  );
+  background-size: 300% 100%; /*Asignamos un ancho para el background del 300% y altura 100%*/
+  animation: gradient 15s ease infinite; /*'gradient' es el nombre de la animación que crearemos, tarda en completarse 15s y vuelve a empezar infinitamente*/
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
