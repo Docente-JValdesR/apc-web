@@ -1,0 +1,166 @@
+{
+  "directivos": [
+    {
+      "title": "Director",
+      "name": "Gabriel Nu\u00f1ez Parada",
+      "image": "https://i.pravatar.cc/150?u=a042581f4e29026024d",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "UTP - B\u00e1sica",
+      "name": "Claudia Ide",
+      "image": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "UTP - Media",
+      "name": "Teresa Vallesp\u00edn",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026702d",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Inspector General",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "tutores": [
+    {
+      "title": "tutora primero B\u00e1sico",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutor Segundo B\u00e1sico",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutora Tercero B\u00e1sico",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutor Cuarto B\u00e1sico",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutora Quinto B\u00e1sico",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutor Sexto B\u00e1sico",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutora S\u00e9ptimo B\u00e1sico",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutor Octavo B\u00e1sico",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutora Primero Medio",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutor Segundo Medio",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutora Tercero Medio",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Tutor Cuarto Medio",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "docentes de asignatura": [
+    {
+      "title": "Profesor de Matem\u00e1ticas",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesora de Lenguaje",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesor de Historia",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesora de Ciencias",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesor de Educaci\u00f3n F\u00edsica",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "asistentes": [
+    {
+      "title": "Profesor de Matem\u00e1ticas",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesora de Lenguaje",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesor de Historia",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesora de Ciencias",
+      "name": "Mar\u00eda Jos\u00e9",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "title": "Profesor de Educaci\u00f3n F\u00edsica",
+      "name": "Juan Carlos",
+      "image": "https://i.pravatar.cc/150?u=a04258114e29026708c",
+      "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+}

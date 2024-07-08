@@ -1,0 +1,61 @@
+{
+  "alumnos": [
+    {
+      "nombre": "Juan Perez",
+      "cargo": "Presidente",
+      "imagen": "https://picsum.photos/600/350?v=1",
+      "palabras": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "nombre": "Maria Lopez",
+      "curso": "2\u00b0 basico",
+      "cargo": "Vicepresidente",
+      "imagen": "https://picsum.photos/600/350?v=2",
+      "palabras": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "nombre": "Pedro Ramirez",
+      "curso": "3\u00b0 basico",
+      "cargo": "Secretario",
+      "imagen": "https://picsum.photos/600/350?v=3",
+      "palabras": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "nombre": "Ana Soto",
+      "curso": "4\u00b0 basico",
+      "cargo": "Tesorero",
+      "imagen": "https://picsum.photos/600/350?v=4",
+      "palabras": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis, quos quod optio nostrum quia ab commodi! Aspernatur assumenda dignissimos fugit natus ipsum ab repudiandae similique incidunt optio reiciendis, vitae eveniet quo molestias laborum commodi? Qui ullam quibusdam alias blanditiis cumque, tenetur nemo nisi et quisquam maxime."
+    },
+    {
+      "nombre": "Josefa Torres",
+      "curso": "5\u00b0 basico",
+      "cargo": "Vocal",
+      "imagen": "https://picsum.photos/600/350?v=5"
+    },
+    {
+      "nombre": "Juan Perez",
+      "curso": "6\u00b0 basico",
+      "cargo": "Presidente",
+      "imagen": "https://picsum.photos/600/350?v=6"
+    },
+    {
+      "nombre": "Maria Lopez",
+      "curso": "7\u00b0 basico",
+      "cargo": "Vicepresidente",
+      "imagen": "https://picsum.photos/600/350?v=7"
+    },
+    {
+      "nombre": "Pedro Ramirez",
+      "curso": "8\u00b0 basico",
+      "cargo": "Secretario",
+      "imagen": "https://picsum.photos/600/350?v=8"
+    },
+    {
+      "nombre": "Ana Soto",
+      "curso": "1\u00b0 medio",
+      "cargo": "Tesorero",
+      "imagen": "https://picsum.photos/600/350?v=9"
+    }
+  ]
+}

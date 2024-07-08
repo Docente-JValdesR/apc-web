@@ -1,29 +1,10 @@
-import "./globals.css";
-import {
-  Cookie,
-  Roboto_Slab,
-  Roboto,
-  Lato,
-  Open_Sans,
-  Montserrat,
-  Oswald,
-  Source_Sans_3,
-  Slabo_27px,
-  Raleway,
-} from "next/font/google";
-import { Providers } from "./provider";
+import Providers from "@/app/provider";
 import Navbar from "@/components/main-navbar";
 import Footer from "@/components/main-footer";
-const cookie = Cookie({ subsets: ["latin"], weight: "400" });
-const roboto_slab = Roboto_Slab({ subsets: ["latin"], weight: "400" });
-const roboto = Roboto({ subsets: ["latin"], weight: "400" });
-const lato = Lato({ subsets: ["latin"], weight: "400" });
-const open_sans = Open_Sans({ subsets: ["latin"], weight: "400" });
-const montserrat = Montserrat({ subsets: ["latin"], weight: "400" });
-const oswald = Oswald({ subsets: ["latin"], weight: "400" });
-const source_sans_3 = Source_Sans_3({ subsets: ["latin"], weight: "400" });
-const slabo_27px = Slabo_27px({ subsets: ["latin"], weight: "400" });
-const raleway = Raleway({ subsets: ["latin"], weight: "400" });
+import { roboto, oswald, montserrat, lato, source_code_pro } from "@/font/font";
+import "@/styles/globals.css";
+import "@/styles/embla.css";
+import { GlobalProvider } from "@/context/globalContext";
 
 export const metadata = {
   title: "APC - Centro educacional Héroe Arturo Pérez Canto",
@@ -32,15 +13,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark">
-      <body className={raleway.className}>
-        <Providers>
-          <div className="flex min-h-screen flex-col items-center justify-between  gradient-bg-animation">
-            <Navbar />
-            <main className="max-w-screen-lg">{children}</main>
-            <Footer />
-          </div>
-        </Providers>
+    <html lang="es" suppressHydrationWarning>
+      <body
+        className={`${roboto.variable} ${oswald.variable} ${lato.variable} ${montserrat.variable} ${source_code_pro.variable}`}
+      >
+        <GlobalProvider>
+          <Providers>
+            <div className="flex min-h-screen flex-col items-center justify-between overflow-hidden">
+              <Navbar />
+              <main className="max-w-screen-xl">{children}</main>
+              <Footer />
+            </div>
+          </Providers>
+        </GlobalProvider>
       </body>
     </html>
   );

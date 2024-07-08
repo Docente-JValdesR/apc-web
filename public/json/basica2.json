@@ -1,0 +1,92 @@
+{
+  "imageSlides": [
+    {
+      "href": "https://picsum.photos/1920/1080?random=1",
+      "title": "Random Image 1"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=2",
+      "title": "Random Image 2"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=3",
+      "title": "Random Image 3"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=4",
+      "title": "Random Image 4"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=5",
+      "title": "Random Image 5"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=6",
+      "title": "Random Image 6"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=7",
+      "title": "Random Image 7"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=8",
+      "title": "Random Image 8"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=9",
+      "title": "Random Image 9"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=10",
+      "title": "Random Image 10"
+    }
+  ],
+  "textSlides": [
+    {
+      "name": "Veronica Perez",
+      "description": "Docente Tutora Quinto B\u00e1sico A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=11"
+    },
+    {
+      "name": "Claudio Maldonado",
+      "description": "Docente Tutor Sexto B\u00e1sico A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=12"
+    },
+    {
+      "name": "Josefa Rojas",
+      "description": "Docente Tutora S\u00e9ptimo B\u00e1sico B",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=13"
+    },
+    {
+      "name": "Maria Jose Pino",
+      "description": "Docente Tutora S\u00e9ptimo B\u00e1sico A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=14"
+    },
+    {
+      "name": "Juan Carlos Rojas",
+      "description": "Docente Tutor Octavo B\u00e1sico A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=15"
+    },
+    {
+      "name": "Francisca Rojas",
+      "description": "Docente Tutora Octavo B\u00e1sico B",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=16"
+    }
+  ],
+  "cicloAcademico": {
+    "description": "Educacion Basica Segundo Ciclo",
+    "levels": [
+      "Quinto B\u00e1sico",
+      "Sexto B\u00e1sico",
+      "S\u00e9ptimo B\u00e1sico",
+      "Octavo B\u00e1sico"
+    ],
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptate."
+  }
+}

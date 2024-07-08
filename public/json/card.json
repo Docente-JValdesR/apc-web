@@ -1,0 +1,59 @@
+{
+  "card": [
+    {
+      "title": "Correo Institucional",
+      "image": "https://img.freepik.com/vector-gratis/nuevo-concepto-mensaje-pagina-destino_23-2148319537.jpg?t=st=1720157627~exp=1720161227~hmac=0e79ba7aa7e3b10fd871a10fc44c07b52edd59bf0c121f881cd7b11e07cd49ff&w=1380",
+      "link": "/correo-institucional"
+    },
+    {
+      "title": "Calendario Académico",
+      "image": "https://img.freepik.com/vector-gratis/plantilla-regreso-escuela-horario_23-2148607721.jpg?t=st=1720157740~exp=1720161340~hmac=c4354c614b1faba4e78a5085a3faa348d213648f6ec14077c79cc1f6ce033cdf&w=1380",
+      "link": "/calendario-academico"
+    },
+    {
+      "title": "Classroom",
+      "image": "https://cdn.milenio.com/uploads/media/2020/08/24/google-classroom-google_0_0_1200_747.jpg",
+      "link": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fclassroom.google.com%2Fu%2F0%2Fh%3Fhl%3Des&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fclassroom.google.com%2Fu%2F0%2Fh%3Fhl%3Des&hl=es&ifkv=AdF4I74rXoOOiLcEGsllSUo4lOs85ySxIzGKPGTDlskSW3nG4ahyWnYFID8-ZOU8GJGQxTnpGHFLAg&passive=1209600&service=classroom&dsh=S1111081076%3A1720157853321894&ddm=0"
+    },
+    {
+      "title": "TNE",
+      "image": "https://www.junaeb.cl/wp-content/uploads/2023/06/tne_header_tarjeta_junaeb.jpg",
+      "link": "https://www.junaeb.cl/tarjeta-tne/"
+    },
+    {
+      "title": "MINEDUC",
+      "image": "https://www.mineduc.cl/wp-content/uploads/sites/19/2024/05/00.-Header-Mineduc.png",
+      "link": "https://www.mineduc.cl/"
+    },
+    {
+      "title": "JUNAEB",
+      "image": "https://www.junaeb.cl/wp-content/uploads/slider/cache/196ecae65572fd41f80aea8de3661c80/Slide-Decalogo.webp",
+      "link": "https://www.junaeb.cl/"
+    },
+    {
+      "title": "DEMRE",
+      "image": "https://demre.cl/images/banner-home/2024-06-10-inicio-incripcion-paes-regular-p2025.jpg",
+      "link": "https://www.demre.cl/"
+    },
+    {
+      "title": "SENDA",
+      "image": "https://www.senda.gob.cl/wp-content/uploads/2024/06/Banner-sitio-web.png",
+      "link": "https://www.senda.gob.cl/"
+    },
+    {
+      "title": "INJUV",
+      "image": "https://www.injuv.gob.cl/sites/default/files/injuv_2020_web.png",
+      "link": "https://www.injuv.gob.cl/"
+    },
+    {
+      "title": "Biblioteca Pública Digital",
+      "image": "https://themes.odilo.io/DIBAM_E0314/images/bg1.jpg",
+      "link": "https://www.bpdigital.cl/"
+    },
+    {
+      "title": "Municipalidad de Recoleta",
+      "image": "https://www.recoleta.cl/wp-content/uploads/2022/11/logo-recoleta-muchomejor-e1678984810184.png",
+      "link": "https://www.recoleta.cl/"
+    }
+  ]
+}

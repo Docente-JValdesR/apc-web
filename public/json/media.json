@@ -1,0 +1,104 @@
+{
+  "imageSlides": [
+    {
+      "href": "https://picsum.photos/1920/1080?random=1",
+      "title": "Random Image 1"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=2",
+      "title": "Random Image 2"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=3",
+      "title": "Random Image 3"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=4",
+      "title": "Random Image 4"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=5",
+      "title": "Random Image 5"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=6",
+      "title": "Random Image 6"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=7",
+      "title": "Random Image 7"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=8",
+      "title": "Random Image 8"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=9",
+      "title": "Random Image 9"
+    },
+    {
+      "href": "https://picsum.photos/1920/1080?random=10",
+      "title": "Random Image 10"
+    }
+  ],
+  "textSlides": [
+    {
+      "name": "Samanta Villalobos",
+      "description": "Docente Tutora Primero Medio A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=11"
+    },
+    {
+      "name": "Marco Gonz\u00e1lez",
+      "description": "Docente Tutor Primero Medio B",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=12"
+    },
+    {
+      "name": "Eduarto Sepulveda",
+      "description": "Docente Tutor Segundo Medio A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=13"
+    },
+    {
+      "name": "Marcela Maldonado",
+      "description": "Docente Tutora Segundo Medio B",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=14"
+    },
+    {
+      "name": "Fernanda Rojas",
+      "description": "Docente Tutora Tercero Medio A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=15"
+    },
+    {
+      "name": "Jose Perez",
+      "description": "Docente Tutor Tercero Medio B",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=16"
+    },
+    {
+      "name": "Maria Espinoza",
+      "description": "Docente Tutora Cuarto Medio A",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=17"
+    },
+    {
+      "name": "Luisa Maldonado",
+      "description": "Docente Tutora Cuarto Medio B",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+      "href": "https://picsum.photos/1920/1920?random=18"
+    }
+  ],
+  "cicloAcademico": {
+    "description": "Educacion Media",
+    "levels": [
+      "Primero Medio",
+      "Segundo Medio",
+      "Tercero Medio",
+      "Cuarto Medio"
+    ],
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptate."
+  }
+}

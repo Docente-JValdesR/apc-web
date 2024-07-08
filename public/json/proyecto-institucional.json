@@ -1,0 +1,107 @@
+{
+  "PEI": [
+    {
+      "title": "Visi\u00f3n",
+      "description": "Ser una instituci\u00f3n educativa de excelencia, reconocida por su calidad acad\u00e9mica y formaci\u00f3n integral de los estudiantes."
+    },
+    {
+      "title": "Misi\u00f3n",
+      "description": "Formar personas \u00edntegras, aut\u00f3nomas y solidarias, capaces de enfrentar los desaf\u00edos del siglo XXI y contribuir al desarrollo de la sociedad."
+    },
+    {
+      "title": "Valores Institucionales",
+      "description": [
+        "Respeto",
+        "Responsabilidad",
+        "Solidaridad",
+        "Honestidad",
+        "Tolerancia",
+        "Empat\u00eda"
+      ]
+    }
+  ],
+  "CE": [
+    {
+      "title": "Resoluci\u00f3n de Conflictos",
+      "description": "Promover una cultura de paz y respeto, fomentando la resoluci\u00f3n pac\u00edfica de conflictos y la mediaci\u00f3n entre pares."
+    },
+    {
+      "title": "Prevenci\u00f3n del Acoso Escolar",
+      "description": "Implementar estrategias de prevenci\u00f3n y detecci\u00f3n del acoso escolar, promoviendo una convivencia escolar sana y respetuosa."
+    },
+    {
+      "title": "Participaci\u00f3n Estudiantil",
+      "description": "Fomentar la participaci\u00f3n activa de los estudiantes en la vida escolar, promoviendo el di\u00e1logo, la inclusi\u00f3n y la diversidad."
+    },
+    {
+      "title": "Involucrar a las Familias",
+      "description": "Establecer una relaci\u00f3n de colaboraci\u00f3n y comunicaci\u00f3n con las familias, promoviendo su participaci\u00f3n en la vida escolar y el proceso educativo de los estudiantes."
+    }
+  ],
+  "CATI": [
+    {
+      "title": "Evaluaci\u00f3n Integral Socioemocional",
+      "description": "El CATI realiza evaluaciones integrales para identificar las necesidades socioemocionales de los estudiantes. Estas evaluaciones permiten dise\u00f1ar planes personalizados que aborden aspectos emocionales y conductuales cruciales para el bienestar y \u00e9xito acad\u00e9mico del estudiante."
+    },
+    {
+      "title": "Tutor\u00edas y Acompa\u00f1amiento Personalizado",
+      "description": "El CATI ofrece tutor\u00edas personalizadas que abarcan tanto el apoyo acad\u00e9mico como el asesoramiento personal. Estas tutor\u00edas est\u00e1n dise\u00f1adas para ayudar a los estudiantes a mejorar su rendimiento acad\u00e9mico y a gestionar sus desaf\u00edos personales y emocionales."
+    },
+    {
+      "title": "Programas de Orientaci\u00f3n Vocacional",
+      "description": "Se proporcionan servicios de orientaci\u00f3n vocacional para guiar a los estudiantes en la elecci\u00f3n de su futuro acad\u00e9mico y profesional. Estos programas ayudan a los estudiantes a descubrir sus intereses y habilidades, facilitando decisiones informadas sobre su trayectoria educativa y laboral."
+    },
+    {
+      "title": "Apoyo a la Diversidad y la Inclusi\u00f3n",
+      "description": "El CATI implementa medidas espec\u00edficas para atender a estudiantes con necesidades educativas especiales o que enfrentan barreras significativas debido a circunstancias como la integraci\u00f3n tard\u00eda al sistema educativo. Estas medidas incluyen apoyo acad\u00e9mico adicional y programas de integraci\u00f3n cultural y ling\u00fc\u00edstica."
+    },
+    {
+      "title": "Terapias Psicol\u00f3gicas",
+      "description": "El CATI cuenta con un equipo de psic\u00f3logos que ofrece terapias individuales y grupales. Estas terapias est\u00e1n orientadas a tratar problemas emocionales, conductuales y de aprendizaje, asegurando que los estudiantes reciban el apoyo necesario para su salud mental y bienestar general."
+    }
+  ],
+  "RI": [
+    {
+      "title": "Normas Generales",
+      "description": {
+        "Horario Escolar": "Detalles sobre el inicio y fin de la jornada escolar, as\u00ed como los tiempos de recreo y actividades extracurriculares.",
+        "Asistencia y Puntualidad": "Pol\u00edticas sobre la asistencia obligatoria, justificaci\u00f3n de ausencias y sanciones por impuntualidad.",
+        "Comportamiento y Disciplina": "Normas de comportamiento dentro y fuera del aula, incluyendo el uso de uniformes, respeto a profesores y compa\u00f1eros, y procedimientos disciplinarios."
+      }
+    },
+    {
+      "title": "Derechos y Deberes",
+      "description": {
+        "Derechos de los Estudiantes": "Incluyen el derecho a una educaci\u00f3n de calidad, a ser escuchados y a participar en actividades escolares.",
+        "Deberes de los Estudiantes": "Respetar a todos los miembros de la comunidad educativa, cuidar las instalaciones y materiales, y cumplir con las tareas y responsabilidades asignadas.",
+        "Derechos y Deberes de los Padres y Apoderados": "Participar activamente en la educaci\u00f3n de sus hijos, asistir a reuniones escolares y apoyar las normas establecidas por el centro educativo."
+      }
+    },
+    {
+      "title": "Medidas de Convivencia",
+      "description": {
+        "Prevenci\u00f3n del Acoso Escolar": "Protocolos para prevenir y actuar en casos de bullying, incluyendo talleres de sensibilizaci\u00f3n y canales de denuncia.",
+        "Resoluci\u00f3n de Conflictos": "Estrategias de mediaci\u00f3n y negociaci\u00f3n para resolver conflictos de manera pac\u00edfica y constructiva.",
+        "Inclusi\u00f3n y Diversidad": "Pol\u00edticas para promover la inclusi\u00f3n de estudiantes con necesidades educativas especiales y la valoraci\u00f3n de la diversidad cultural."
+      }
+    },
+    {
+      "title": "Evaluaci\u00f3n y Revisi\u00f3n",
+      "description": "El Reglamento Interno se revisa y eval\u00faa peri\u00f3dicamente para asegurar que se adapte a las necesidades cambiantes de la comunidad educativa y que cumpla con las normativas legales vigentes."
+    },
+    {
+      "title": "Aplicaci\u00f3n",
+      "description": {
+        "Proceso Disciplinario": {
+          "Faltas Leves": "Advertencias verbales y notificaci\u00f3n a los padres.",
+          "Faltas Graves": "Reuniones con padres, suspensi\u00f3n temporal y elaboraci\u00f3n de un plan de mejora.",
+          "Faltas Muy Graves": "Suspensi\u00f3n prolongada, intervenci\u00f3n de autoridades superiores y posibles acciones legales."
+        },
+        "Canales de Comunicaci\u00f3n": {
+          "Reuniones y Talleres": "Informar a la comunidad educativa sobre las normas y procedimientos del Reglamento Interno.",
+          "Plataformas Digitales": "Publicaci\u00f3n del reglamento en la p\u00e1gina web del centro y en redes sociales para asegurar el acceso a todos los miembros de la comunidad."
+        }
+      }
+    }
+  ]
+}

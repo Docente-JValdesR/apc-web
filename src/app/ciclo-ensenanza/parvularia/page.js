@@ -1,0 +1,106 @@
+"use client";
+
+import CicloComponent from "@/components/cicloComponent";
+import { useGlobal } from "@/context/globalContext";
+const imageSlides = [
+  {
+    href: "https://picsum.photos/1920/1080?random=1",
+    title: "Random Image 1",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=2",
+    title: "Random Image 2",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=3",
+    title: "Random Image 3",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=4",
+    title: "Random Image 4",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=5",
+    title: "Random Image 5",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=6",
+    title: "Random Image 6",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=7",
+    title: "Random Image 7",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=8",
+    title: "Random Image 8",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=9",
+    title: "Random Image 9",
+  },
+  {
+    href: "https://picsum.photos/1920/1080?random=10",
+    title: "Random Image 10",
+  },
+];
+
+const textSlides = [
+  {
+    name: "Maria Angel Espinoza",
+    description: "Docente Tutoral Pre-Kinder",
+    content:
+      "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+    href: "https://picsum.photos/1920/1920?random=11",
+  },
+
+  {
+    name: "Jose Luis Espinoza",
+    description: "Docente Tutor Kinder",
+    content:
+      "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+    href: "https://picsum.photos/1920/1920?random=12",
+  },
+  {
+    name: "Fernanda Villagra",
+    description: "Asistente de Aula Pre-Kinder",
+    content:
+      "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+    href: "https://picsum.photos/1920/1920?random=13",
+  },
+  {
+    name: "Luis Pineda",
+    description: "Asistente de Aula Pre-Kinder",
+    content:
+      "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis cum maiores ut quo? Magni quaerat maxime hic dolores ut ad vitae porro modi doloremque expedita. Ipsum aperiam pariatur cum.",
+    href: "https://picsum.photos/1920/1920?random=14",
+  },
+];
+
+const cicloAcademico = {
+  description: "Educación Parvularia",
+  levels: ["Pre-Kinder", "Kinder"],
+  content:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptate.",
+};
+
+export default function CarouselContainer() {
+  const { parvularia } = useGlobal();
+  const options = {
+    loop: true,
+    watchDrag: false,
+  };
+  const autoplay = { delay: 10000 };
+  if (!parvularia || parvularia.length === 0) {
+    return <div>Loading...</div>; // O cualquier mensaje de carga que prefieras
+  }
+  return (
+    <CicloComponent
+      imageSlides={parvularia.imageSlides}
+      textSlides={parvularia.textSlides}
+      cicloAcademico={parvularia.cicloAcademico}
+      options={options}
+      autoplay={autoplay}
+    />
+  );
+}
