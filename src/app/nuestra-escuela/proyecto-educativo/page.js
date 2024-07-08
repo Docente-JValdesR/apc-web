@@ -3,7 +3,7 @@ import Accordioncustom from "@/components/accordion";
 import { useGlobal } from "@/context/globalContext";
 import { Divider } from "@nextui-org/react";
 
-export default function page() {
+export default function Page() {
   const { proyectoInstitucional } = useGlobal();
 
   if (!proyectoInstitucional || proyectoInstitucional.length === 0) {

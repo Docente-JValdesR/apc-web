@@ -3,69 +3,8 @@ import { useGlobal } from "@/context/globalContext";
 import { Card, CardFooter, CardHeader, Image } from "@nextui-org/react";
 import React, { useState } from "react";
 
-const personajes = [
-  {
-    nombre: "Juan Perez",
-    cargo: "Presidente",
-    imagen: "https://picsum.photos/600/350?v=1",
-    palabras: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    nombre: "Maria Lopez",
-    curso: "2° basico",
-    cargo: "Vicepresidente",
-    imagen: "https://picsum.photos/600/350?v=2",
-    palabras: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    nombre: "Pedro Ramirez",
-    curso: "3° basico",
-    cargo: "Secretario",
-    imagen: "https://picsum.photos/600/350?v=3",
-    palabras: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    nombre: "Ana Soto",
-    curso: "4° basico",
-    cargo: "Tesorero",
-    imagen: "https://picsum.photos/600/350?v=4",
-    palabras:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis, quos quod optio nostrum quia ab commodi! Aspernatur assumenda dignissimos fugit natus ipsum ab repudiandae similique incidunt optio reiciendis, vitae eveniet quo molestias laborum commodi? Qui ullam quibusdam alias blanditiis cumque, tenetur nemo nisi et quisquam maxime. ",
-  },
-  {
-    nombre: "Josefa Torres",
-    curso: "5° basico",
-    cargo: "Vocal",
-    imagen: "https://picsum.photos/600/350?v=5",
-  },
-  {
-    nombre: "Juan Perez",
-    curso: "6° basico",
-    cargo: "Presidente",
-    imagen: "https://picsum.photos/600/350?v=6",
-  },
-  {
-    nombre: "Maria Lopez",
-    curso: "7° basico",
-    cargo: "Vicepresidente",
-    imagen: "https://picsum.photos/600/350?v=7",
-  },
-  {
-    nombre: "Pedro Ramirez",
-    curso: "8° basico",
-    cargo: "Secretario",
-    imagen: "https://picsum.photos/600/350?v=8",
-  },
-  {
-    nombre: "Ana Soto",
-    curso: "1° medio",
-    cargo: "Tesorero",
-    imagen: "https://picsum.photos/600/350?v=9",
-  },
-];
-
 export default function page() {
-  const [active, setActive] = useState(personajes[0]);
+  const [active, setActive] = useState(centroPadres[0]);
   const { centroPadres } = useGlobal();
 
   const content = {
@@ -102,10 +41,10 @@ export default function page() {
           <Card isFooterBlurred radius="lg" className="w-full h-96 ">
             <CardHeader className="absolute z-10 top-1 flex-col items-start text-start">
               <h3 className="text-2xl capitalize font-bold bg-white/60 p-2 rounded-md dark:bg-black/60">
-                {active.nombre} {active.curso ? ` ${active.curso}` : ""}
+                {active?.nombre} {active?.curso ? ` ${active?.curso}` : ""}
               </h3>
               <h3 className="text-base capitalize font-bold bg-white/60 p-2 rounded-md dark:bg-black/60">
-                {active.cargo}
+                {active?.cargo}
               </h3>
             </CardHeader>
             <div
@@ -114,13 +53,13 @@ export default function page() {
             />
             <Image
               removeWrapper
-              alt={active.nombre}
+              alt={active?.nombre}
               className="z-0 w-full h-full object-cover"
-              src={active.imagen}
+              src={active?.imagen}
             />
 
             <CardFooter className="text-log absolute bg-white/40 dark:bg-black/40 bottom-0 z-10   ">
-              {active.palabras}
+              {active?.palabras}
             </CardFooter>
           </Card>
         </div>
