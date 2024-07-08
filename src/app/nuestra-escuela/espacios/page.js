@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("");
+
   const { espacios } = useGlobal();
 
   useEffect(() => {
@@ -45,23 +46,17 @@ export default function Page() {
   };
 
   useEffect(() => {
-    if (espacios && espacios.length > 0) {
-      const menuLinks = document.querySelectorAll(".menu-link");
+    const menuLinks = document.querySelectorAll(".menu-link");
+    menuLinks.forEach((link) => {
+      link.addEventListener("click", handleScrollToSection);
+    });
+
+    return () => {
       menuLinks.forEach((link) => {
-        link.addEventListener("click", handleScrollToSection);
+        link.removeEventListener("click", handleScrollToSection);
       });
-
-      return () => {
-        menuLinks.forEach((link) => {
-          link.removeEventListener("click", handleScrollToSection);
-        });
-      };
-    }
-  }, [espacios]);
-
-  if (!espacios || espacios.length === 0) {
-    return <div>Loading...</div>; // O cualquier mensaje de carga que prefieras
-  }
+    };
+  }, []);
 
   return (
     <>
