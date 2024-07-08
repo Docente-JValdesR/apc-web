@@ -4,7 +4,8 @@ export default function Page() {
   const contentData = [
     {
       type: "title",
-      content: 'Historia del Centro Educacional "Héroe Arturo Pérez Canto"',
+      content:
+        "Historia del Centro Educacional &quot;Héroe Arturo Pérez Canto&quot;",
     },
     {
       type: "image",
@@ -15,7 +16,7 @@ export default function Page() {
       type: "text",
       content: (
         <>
-          El Centro Educacional "Héroe Arturo Pérez Canto" inició sus
+          El Centro Educacional &quot;Héroe Arturo Pérez Canto&quot; inició sus
           actividades el 17 de septiembre de 1944 bajo el nombre de Escuela
           Experimental El Salto. En sus primeros años, se encontraba en un
           sector de chacras y quintas cerca de la Plaza El Salto, entre las
@@ -50,8 +51,8 @@ export default function Page() {
             Guerra del Pacífico
           </Link>
           . Este cambio coincidió con la inclusión de una modalidad Técnico
-          Profesional, especialmente en la especialidad de "Técnico en la
-          Explotación Industrial del Plástico".
+          Profesional, especialmente en la especialidad de &quot;Técnico en la
+          Explotación Industrial del Plástico&quot;.
         </>
       ),
     },

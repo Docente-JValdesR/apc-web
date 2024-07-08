@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useState, useEffect } from "react";
+import { useCallback, useState, useEffect } from "react";
 import {
   PrevButton,
   NextButton,
@@ -11,7 +11,6 @@ import style from "@/styles/emblaHorizontal.module.css";
 import {
   Button,
   Image,
-  Link,
   Modal,
   ModalBody,
   ModalContent,
@@ -38,6 +37,23 @@ const EmblaCarousel = ({ slides, options }) => {
     return () => window.removeEventListener("resize", updateWidth);
   }, []);
 
+  const transformImages = useCallback((images) => {
+    if (!Array.isArray(images)) {
+      console.error("Expected an array, but received:", images);
+      return [];
+    }
+    return images.map((imgUrl) => ({
+      image: imgUrl,
+      height: getRandomHeight(),
+    }));
+  }, []);
+
+  useEffect(() => {
+    if (slides.length > 0) {
+      setSelectedImages(transformImages(slides[0].image));
+    }
+  }, [slides, transformImages]);
+
   const onNavButtonClick = useCallback((emblaApi) => {
     const autoplay = emblaApi?.plugins()?.autoplay;
     if (!autoplay) return;
@@ -57,12 +73,6 @@ const EmblaCarousel = ({ slides, options }) => {
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi, onNavButtonClick);
 
-  useEffect(() => {
-    if (slides.length > 0) {
-      setSelectedImages(transformImages(slides[0].image));
-    }
-  }, [slides]);
-
   const handleSlideClick = (index) => {
     setSelectedImages(transformImages(slides[index].image));
     setTitle(slides[index].title);
@@ -76,22 +86,10 @@ const EmblaCarousel = ({ slides, options }) => {
   const getRandomHeight = () =>
     Math.floor(Math.random() * (600 - 350 + 1)) + 200;
 
-  const transformImages = (images) => {
-    if (!Array.isArray(images)) {
-      console.error("Expected an array, but received:", images);
-      return [];
-    }
-    return images.map((imgUrl) => ({
-      image: imgUrl,
-      height: getRandomHeight(),
-    }));
-  };
-
+  const OPTIONS = {};
   if (!slides || slides.length === 0 || selectedImages.length === 0) {
     return null;
   }
-
-  const OPTIONS = {};
 
   return (
     <>

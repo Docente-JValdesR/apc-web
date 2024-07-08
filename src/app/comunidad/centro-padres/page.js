@@ -1,11 +1,11 @@
 "use client";
 import { useGlobal } from "@/context/globalContext";
 import { Card, CardFooter, CardHeader, Image } from "@nextui-org/react";
-import React, { useState } from "react";
+import { useState } from "react";
 
-export default function page() {
-  const [active, setActive] = useState(centroPadres[0]);
+export default function Page() {
   const { centroPadres } = useGlobal();
+  const [active, setActive] = useState(centroPadres[0]);
 
   const content = {
     title: "Centro de Padres y Apoderados <br/>(CEPA)",

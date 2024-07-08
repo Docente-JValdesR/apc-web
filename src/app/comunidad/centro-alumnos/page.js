@@ -1,15 +1,11 @@
 "use client";
 import { useGlobal } from "@/context/globalContext";
 import { Card, CardFooter, CardHeader, Image } from "@nextui-org/react";
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Page() {
-  const [active, setActive] = useState([]);
   const { centroAlumnos } = useGlobal();
-
-  useEffect(() => {
-    setActive(centroAlumnos[0]);
-  }, []);
+  const [active, setActive] = useState(centroAlumnos[0]);
 
   const content = {
     title: "Centro de Estudiantes <br/> CC.EE.",

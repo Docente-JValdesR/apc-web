@@ -20,8 +20,8 @@ export default function Home() {
             Bienvenidos al Centro Educacional Héroe Arturo Pérez Canto
           </h1>
           <h2 className="text-lg italic pt-8 font-bold">
-            "Un lugar donde la historia, la educación y la comunidad se unen
-            para construir un futuro mejor."
+            Un lugar donde la historia, la educación y la comunidad se unen para
+            construir un futuro mejor.
           </h2>
         </div>
       </div>

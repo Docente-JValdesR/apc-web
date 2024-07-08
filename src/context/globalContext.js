@@ -112,7 +112,6 @@ export const GlobalProvider = ({ children }) => {
       const resCentroAlumnos = await fetch("/json/centro-alumnos.json");
       if (resCentroAlumnos.ok) {
         const json = await resCentroAlumnos.json();
-        console.log(json);
         setCentroAlumnos(json.alumnos);
       } else {
         console.error("Failed to fetch data");
