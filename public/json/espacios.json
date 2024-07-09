@@ -3,96 +3,80 @@
     {
       "key": "patio1",
       "href": "#patio1",
-      "background": "bg-patio1 ",
-      "opacity": "opacity-80",
+
       "titulo1": "Patio Central",
       "titulo2": "Importancia",
-      "columns1": "lg:col-span-4 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-2 lg:text-end",
+
       "parrafo1": "El patio central es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "El patio central es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "patio2",
       "href": "#patio2",
-      "background": "bg-patio2",
-      "opacity": "opacity-60",
+
       "titulo1": "Patio Secundario",
       "titulo2": "Importancia",
-      "columns1": "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-1 lg:text-start",
+
       "parrafo1": "El patio secundario es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "El patio secundario es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "patio3",
       "href": "#patio3",
-      "background": "bg-patio3",
-      "opacity": "opacity-80",
+
       "titulo1": "Patio de Pre B\u00e1sica",
       "titulo2": "Importancia",
-      "columns1": "lg:col-span-4 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-2 lg:text-end",
+
       "parrafo1": "El patio de pre b\u00e1sica es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "El patio de pre b\u00e1sica es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "teatro",
       "href": "#teatro",
-      "background": "bg-teatro",
-      "opacity": "opacity-80",
+
       "titulo1": "Teatro",
       "titulo2": "Importancia",
-      "columns1": "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-1 lg:text-start",
+
       "parrafo1": "El teatro es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "El teatro es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "biblioteca",
       "href": "#biblioteca",
-      "background": "bg-biblioteca",
-      "opacity": "opacity-80",
+
       "titulo1": "Biblioteca",
       "titulo2": "Importancia",
-      "columns1": "lg:col-span-4 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-2 lg:text-end",
+
       "parrafo1": "La biblioteca es un espacio de encuentro y esparcimiento para la comunidad educativa. En ella se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "La biblioteca es un espacio de encuentro y esparcimiento para la comunidad educativa. En ella se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "laboratorio",
       "href": "#laboratorio",
-      "background": "bg-laboratorio",
-      "opacity": "opacity-80",
+
       "titulo1": "Laboratorio",
       "titulo2": "Importancia",
-      "columns1": "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-1 text-start",
+
       "parrafo1": "El laboratorio es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "El laboratorio es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "comedor",
       "href": "#comedor",
-      "background": "bg-comedor",
-      "opacity": "opacity-80",
+
       "titulo1": "Comedor",
       "titulo2": "Importancia",
-      "columns1": "lg:col-span-4 row-start-3 lg:row-start-1 ",
-      "columns2": "lg:col-start-2 lg:text-end",
+
       "parrafo1": "El comedor es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "El comedor es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     },
     {
       "key": "enlaces",
       "href": "#enlaces",
-      "background": "bg-enlaces",
-      "opacity": "opacity-80",
+
       "titulo1": "Enlaces",
       "titulo2": "Importancia",
-      "columns1": "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
-      "columns2": "lg:col-start-1 lg:text-start",
+
       "parrafo1": "Enlaces es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales.",
       "parrafo2": "Enlaces es un espacio de encuentro y esparcimiento para la comunidad educativa. En \u00e9l se realizan actividades recreativas, deportivas y culturales."
     }
