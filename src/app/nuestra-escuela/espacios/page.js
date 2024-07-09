@@ -140,7 +140,7 @@ export default function Page() {
         <div key={espacio.key}>
           <div
             id={espacio.key}
-            className={`full-width-section min-h-screen bg-fixed bg-no-repeat bg-cover bg-center grid grid-rows-3 lg:grid-rows-1 lg:grid-cols-12 ${styles[index].background}`}
+            className={`!full-width-section !min-h-screen !bg-fixed !bg-no-repeat !bg-cover !bg-center grid grid-rows-3 lg:grid-rows-1 lg:grid-cols-12 ${styles[index].background}`}
           >
             <div className={`relative ${styles[index].columns1} lg:min-h-full`}>
               <div
