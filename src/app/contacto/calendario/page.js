@@ -6,6 +6,15 @@ import dayjs from "dayjs";
 import "dayjs/locale/es";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 import { useEffect, useState } from "react";
+import {
+  Button,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  ModalHeader,
+  useDisclosure,
+} from "@nextui-org/react";
 
 dayjs.locale("es");
 dayjs.extend(customParseFormat);
@@ -14,6 +23,9 @@ export default function Page() {
   const [eventsData, setEventsData] = useState([]);
   const [currentView, setCurrentView] = useState("work_week");
   const [selectedDate, setSelectedDate] = useState(new Date());
+  const [currentModal, setCurrentModal] = useState({});
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   const localizer = dayjsLocalizer(dayjs);
 
   useEffect(() => {
@@ -32,6 +44,7 @@ export default function Page() {
 
   const events = eventsData.map((ticket) => {
     return {
+      id: ticket.attributes.id,
       start: dayjs(ticket.attributes.start, "YYYY-MM-DDTHH:mm:ss").toDate(),
       end: dayjs(ticket.attributes.end, "YYYY-MM-DDTHH:mm:ss").toDate(),
       title: ticket.attributes.title,
@@ -54,7 +67,7 @@ export default function Page() {
 
   const eventPropGetter = (event, start, end, isSelected) => {
     let newStyle = {
-      backgroundColor: "#2e86a1",
+      backgroundColor: "#a8b0d3",
       color: "white",
       borderRadius: "5px",
       border: "1px solid black",
@@ -85,7 +98,7 @@ export default function Page() {
       return <h3>{event.title}</h3>;
     } else if (currentView === "day") {
       return (
-        <div className="grid rounded">
+        <div className="grid rounded" onClick={() => renderModalContent(event)}>
           <h3>{event.title}</h3>
           <p>{event.description}</p>
         </div>
@@ -98,6 +111,10 @@ export default function Page() {
         </div>
       );
     }
+  };
+  const renderModalContent = (event) => {
+    onOpen();
+    setCurrentModal(event);
   };
 
   return (
@@ -136,6 +153,41 @@ export default function Page() {
           onSelectEvent={handleEventClick}
         />
       </div>
+      <Modal
+        isOpen={isOpen}
+        onClose={onClose}
+        size="5xl"
+        backdrop="blur"
+        classNames={{
+          backdrop: "bg-[#292f46]/50 backdrop-opacity-40",
+          base: "border-[#292f46] bg-[#19172c] dark:bg-[#19172c] text-[#a8b0d3]",
+          header: "border-b-[1px] border-[#292f46]",
+          footer: "border-t-[1px] border-[#292f46]",
+          closeButton: "hover:bg-white/5 active:bg-white/10",
+        }}
+      >
+        <ModalContent>
+          {() => (
+            <>
+              <ModalHeader>
+                {currentModal.title} -{" "}
+                {dayjs(currentModal.start).format("DD/MM/YYYY HH:mm")} -{" "}
+                {dayjs(currentModal.end).format("HH:mm")}
+              </ModalHeader>
+              <ModalBody>
+                <h3>{currentModal.teacher}</h3>
+                <h4>{currentModal.course}</h4>
+                <p>{currentModal.description}</p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="foreground" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
     </div>
   );
 }

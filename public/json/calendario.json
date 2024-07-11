@@ -7,7 +7,8 @@
         "title": "Clase de Matemáticas",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "1"
       }
     },
     {
@@ -17,7 +18,8 @@
         "title": "Clase de Lenguaje",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "2"
       }
     },
     {
@@ -27,7 +29,8 @@
         "title": "Clase de Matemáticas",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "3"
       }
     },
     {
@@ -37,7 +40,8 @@
         "title": "Clase de Matemáticas",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "4"
       }
     },
     {
@@ -47,7 +51,8 @@
         "title": "Clase de Lenguaje",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "5"
       }
     },
     {
@@ -57,7 +62,8 @@
         "title": "Clase de Matemáticas",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "6"
       }
     },
     {
@@ -67,7 +73,8 @@
         "title": "Clase de Lenguaje",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "7"
       }
     },
     {
@@ -77,7 +84,8 @@
         "title": "Clase de Lenguaje",
         "teacher": "Prof. García",
         "course": "Matemáticas 101",
-        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101."
+        "description": "Clase de Matemáticas con el Prof. García, para el curso Matemáticas 101.",
+        "id": "8"
       }
     },
     {
@@ -87,7 +95,8 @@
         "title": "Clase de Historia",
         "teacher": "Prof. Martínez",
         "course": "Historia 201",
-        "description": "Clase de Historia con el Prof. Martínez, para el curso Historia 201."
+        "description": "Clase de Historia con el Prof. Martínez, para el curso Historia 201.",
+        "id": "9"
       }
     },
     {
@@ -97,7 +106,8 @@
         "title": "Clase de Física",
         "teacher": "Prof. López",
         "course": "Física 301",
-        "description": "Clase de Física con el Prof. López, para el curso Física 301."
+        "description": "Clase de Física con el Prof. López, para el curso Física 301.",
+        "id": "10"
       }
     },
     {
@@ -107,7 +117,8 @@
         "title": "Clase de Química",
         "teacher": "Prof. Pérez",
         "course": "Química 401",
-        "description": "Clase de Química con el Prof. Pérez, para el curso Química 401."
+        "description": "Clase de Química con el Prof. Pérez, para el curso Química 401.",
+        "id": "11"
       }
     },
     {
@@ -117,7 +128,8 @@
         "title": "Clase de Biología",
         "teacher": "Prof. Sánchez",
         "course": "Biología 501",
-        "description": "Clase de Biología con el Prof. Sánchez, para el curso Biología 501."
+        "description": "Clase de Biología con el Prof. Sánchez, para el curso Biología 501.",
+        "id": "12"
       }
     }
   ]
