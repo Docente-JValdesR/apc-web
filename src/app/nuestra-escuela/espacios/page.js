@@ -3,62 +3,59 @@ import { useGlobal } from "@/context/globalContext";
 import { Tab, Tabs } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 
-// Suponiendo que este es el array de estilos
-const styles = [
-  {
-    background: "bg-patio1",
-    opacity: "opacity-80",
-    columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-2 lg:text-end",
-  },
-  {
-    background: "bg-patio2",
-    opacity: "opacity-60",
-    columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-1 lg:text-start",
-  },
-  {
-    background: "bg-patio3",
-    opacity: "opacity-80",
-    columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-2 lg:text-end",
-  },
-  {
-    background: "bg-teatro",
-    opacity: "opacity-80",
-    columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-1 lg:text-start",
-  },
-  {
-    background: "bg-biblioteca",
-    opacity: "opacity-80",
-    columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-2 lg:text-end",
-  },
-  {
-    background: "bg-laboratorio",
-    opacity: "opacity-80",
-    columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-1 text-start",
-  },
-  {
-    background: "bg-comedor",
-    opacity: "opacity-80",
-    columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-2 lg:text-end",
-  },
-  {
-    background: "bg-enlaces",
-    opacity: "opacity-80",
-    columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
-    columns2: "lg:col-start-1 lg:text-start",
-  },
-];
-
 export default function Page() {
   const [activeTab, setActiveTab] = useState("");
   const { espacios } = useGlobal();
-
+  const styles = [
+    {
+      background: "bg-patio1",
+      opacity: "opacity-80",
+      columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-2 lg:text-end",
+    },
+    {
+      background: "bg-patio2",
+      opacity: "opacity-60",
+      columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-1 lg:text-start",
+    },
+    {
+      background: "bg-patio3",
+      opacity: "opacity-80",
+      columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-2 lg:text-end",
+    },
+    {
+      background: "bg-teatro",
+      opacity: "opacity-80",
+      columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-1 lg:text-start",
+    },
+    {
+      background: "bg-biblioteca",
+      opacity: "opacity-80",
+      columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-2 lg:text-end",
+    },
+    {
+      background: "bg-laboratorio",
+      opacity: "opacity-80",
+      columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-1 text-start",
+    },
+    {
+      background: "bg-comedor",
+      opacity: "opacity-80",
+      columns1: "lg:col-span-4 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-2 lg:text-end",
+    },
+    {
+      background: "bg-enlaces",
+      opacity: "opacity-80",
+      columns1: "lg:col-start-9 lg:col-end-13 row-start-3 lg:row-start-1",
+      columns2: "lg:col-start-1 lg:text-start",
+    },
+  ];
   useEffect(() => {
     const sections = document.querySelectorAll("div[id]");
 

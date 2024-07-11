@@ -94,6 +94,10 @@ export default function App() {
           title: "Documentos",
           href: "/documentos",
         },
+        {
+          title: "Calendario",
+          href: "/contacto/calendario",
+        },
       ],
     },
   ];
